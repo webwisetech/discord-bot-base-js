@@ -1,0 +1,32 @@
+{
+  "name": "discord-bot-base",
+  "version": "1.0.0",
+  "description": "A discord bot base in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/OfficialCodeSpiral/discord-bot-base-js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "CodeSpiral",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.67",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "glob": "^10.3.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
