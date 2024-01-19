@@ -33,6 +33,7 @@ Before you start, ensure you have the following installed:
 3. Configure your bot:
    - Rename `.example.env` to `.env`.
    - Replace `BOT_TOKEN` with your actual bot token in `.env`.
+   - Replace `CLIENT_ID` with your actual bot id in `.env`.
 
 4. Run your bot:
    ```bash
