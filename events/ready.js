@@ -5,4 +5,3 @@ module.exports = {
       console.log(`[BOT] Logged in as ${client.user.tag}`);
     },
   };
-  
