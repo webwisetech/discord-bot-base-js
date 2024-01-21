@@ -6,7 +6,6 @@ module.exports = {
     .setDescription('Replies with Pong!'),
 
   async execute(interaction) {
-    console.log(interaction)
     try {
       await interaction.reply('Pong!');
     } catch (error) {
